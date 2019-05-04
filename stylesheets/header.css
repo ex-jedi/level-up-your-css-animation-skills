@@ -40,6 +40,7 @@ header:before {
 }
 
 header:after {
+  animation: rotate-up 0.5s 0.5s ease-out forwards;
   background: #f9fcff;
   content: "";
   height: 40rem;
@@ -47,8 +48,6 @@ header:after {
   position: absolute;
   right: -5%;
   top: 90%;
-  -webkit-transform: rotateZ(-4deg);
-  transform: rotateZ(-4deg);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
   z-index: 0;
@@ -72,7 +71,7 @@ header:after {
 }
 
 .animate-pop-in {
-  animation: pop-in 0.6s cubic-bezier(0.01, 0.7, 0.41, 1.41) forwards;
+  animation: pop-in 0.6s cubic-bezier(0.24, 0.32, 0.41, 1.41) forwards;
   opacity: 0;
 }
 
@@ -112,5 +111,11 @@ header:after {
   100% {
     opacity: 1;
     transform: none;
+  }
+}
+
+@keyframes rotate-up {
+  100% {
+    transform: rotateZ(-4deg);
   }
 }
