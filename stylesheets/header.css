@@ -99,11 +99,27 @@ header:after {
   text-align: center;
   z-index: 10;
 }
-/* Animations */
 
 .header-down-arrow img {
-  animation: fade-slide-up 1s 1s ease-out forwards;
+  animation: fade-slide-up 1s 1s ease-out forwards,
+    pulse 2s 3s ease-out infinite;
   opacity: 0;
+}
+/* Animations */
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes fade-slide-down {
