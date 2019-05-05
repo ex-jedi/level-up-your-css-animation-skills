@@ -1,5 +1,25 @@
 /* Styles for the links */
 
 a {
+	text-decoration: none;
+	position: relative;
+}
 
+a::after {
+	border-radius: 1em;
+	border-top: 0.1em solid #2f56b0;
+	content: "";
+	position: absolute;
+	right: 100%;
+	bottom: 0.14em;
+	left: 0;
+	transition: right 0.4s cubic-bezier(0, 0.5, 0, 1);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:hover::after {
+	right: 0;
 }
