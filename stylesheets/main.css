@@ -232,15 +232,8 @@ footer li:first-child::before {
 }
 
 /* Overrides for the links examples */
-
-p {
-  font-size: 24px !important;
-}
-
-/* Styles for the links */
-
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content {
@@ -254,15 +247,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
 }
 
-.content .calls-to-action {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+p {
+  font-size: 4.7em;
+  max-width: 80%;
 }
