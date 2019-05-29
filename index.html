@@ -1,169 +1,80 @@
 <html>
-	<head>
-		<title>Scroll effects: Level up your CSS animation skills</title>
-		<!-- The default layout, resets and and text styling -->
-		<link href="stylesheets/main.css" rel="stylesheet" />
-		<!-- Custom styling -->
-		<link href="stylesheets/scroll.css" rel="stylesheet" />
-		<link href="stylesheets/slide-in.css" rel="stylesheet" />
-	</head>
-	<body>
-		<header class="header show-on-scroll">
-			<div class="main-photo"></div>
-			<h1 class="heading">When the moon hits your eye</h1>
-		</header>
-		<article class="content">
-			<p>
-				<strong
-					>The history of pizza begins in antiquity, when various ancient
-					cultures produced flatbreads with toppings.</strong
-				>
-			</p>
+  <head>
+    <title>Scroll effects: Level up your CSS animation skills</title>
+    <!-- The default layout, resets and and text styling -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- Custom styling -->
+    <link href="stylesheets/scroll.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <svg class="example-logo" width="2000px" height="2000px" viewBox="-400 -400 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="icon-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <circle stroke="#000000" stroke-width="3" fill="#333333" style="opacity:.5" cx="100.5" cy="100.5" r="100.5"></circle>
+          <circle stroke="#000000" stroke-width="3" fill="#aaa" style="opacity:.5" opacity="0.9" cx="100.5" cy="99.225" r="79.875"></circle>
+          <g>
+            <g class="large-boulder" transform="translate(33.000000, 57.000000)">
+              <polygon fill="#E6E7E8" points="36 0.15 83.025 0.15 99 12.525 102.6 24.9 134.1 68.775 106.275 78.6 61.275 73.425 8.625 75.45 0.9 61.125 0.9 44.475 12.225 37.8 23.625 16.2"></polygon>
+              <path d="M8.25,74.325 L31.425,59.7 L47.85,58.5 L64.95,60.6 L83.025,50.325 L108.3,57.15 L134.1,68.775 L106.275,78.6 L61.275,73.425 L37.05,74.1 L8.25,74.325 Z M18.15,27.45 L34.425,28.125 L39.075,33.15 L22.05,39.375 L7.425,51.3 L0.9,45.45 L10.5,38.775 L18.15,27.45 Z M71.175,25.875 L73.875,19.2 L83.85,15.9 L97.5,27.225 L84.375,23.1 L75.825,27.225 L71.175,25.875 Z M37.425,38.85 L58.725,33.15 L70.95,36.375 L79.2,42.525 L74.55,48.225 L59.175,49.275 L45.75,51 L32.85,50.325 L27.225,56.4 L16.35,52.8 L37.425,38.85 Z" fill="#D1D3D4"></path>
+              <polygon id="body" stroke="#000000" stroke-width="3" points="36 0.15 83.025 0.15 99 12.525 102.6 24.9 134.1 68.775 106.275 78.6 61.275 73.425 8.625 75.45 0.9 61.125 0.9 44.475 12.225 37.8 23.625 16.2"></polygon>
+            </g>
+          </g>
+          <g>
+            <g class="medium-boulder" transform="translate(108.750000, 125.250000)">
+                <polygon fill="#F1F2F2" points="0.525 14.025 10.5 3.3 30.675 0.15 38.925 7.05 43.05 20.85 24.45 27.375 4.575 24.75"></polygon>
+                <polygon fill="#D1D3D4" points="0.525 13.8 18.6 19.35 30.975 18.225 40.275 11.55 43.05 20.625 24.45 27.225 4.575 24.525"></polygon>
+                <polygon stroke="#000000" stroke-width="3" points="0.525 13.8 10.5 3.075 30.675 0 38.925 6.9 43.05 20.625 24.45 27.225 4.575 24.525"></polygon>
+            </g>
+          </g>
+          <g>
+            <g class="small-boulder" transform="translate(70.500000, 123.750000)">
+                <polygon fill="#F1F2F2" points="8.85 2.925 20.025 0 31.125 8.475 33.9 19.425 11.025 26.1 0.225 16.725 5.1 3.825"></polygon>
+                <polygon fill="#E6E7E8" points="3.9 6.975 14.325 17.625 26.1 12 32.025 12.075 33.9 19.425 11.025 26.1 0.525 15.6"></polygon>
+                <polygon stroke="#000000" stroke-width="3" points="8.85 2.925 20.025 0 31.125 8.475 33.9 19.425 11.025 26.1 0.225 16.725 5.1 3.825"></polygon>
+            </g>
+          </g>
+        </g>
+      </svg>
+      <h1 class="heading">MOON ROCKS</h1>
+    </header>
+    <article class="content">
 
-			<p>
-				The word pizza was first documented in AD 997 in Gaeta and successively
-				in different parts of Central and Southern Italy. The precursor of pizza
-				was probably the focaccia, a flat bread known to the Romans as panis
-				focacius, to which toppings were then added.
-			</p>
+      <p>"No nation which expects to be the leader of other nations can expect to stay behind in this race for space. We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."</p>
 
-			<p>
-				Modern pizza developed in Naples, when tomato was added to the focaccia
-				in the late 18th century. However, pizza was mainly eaten in the country
-				of Italy and by immigrants from there. This changed after World War II,
-				when Allied troops stationed in Italy came to enjoy pizza along with
-				other Italian foods.
-			</p>
+      <div class="floating-rocks front-one">
+        <img src="images/rock1.svg">
+      </div>
 
-			<img src="images/pizza2.jpg" class="inline-photo show-on-scroll" />
+      <p>"10, 9, ignition sequence start, 6, 5, 4, 3, 2, 1, zero. All engines running. Liftoff! We have a liftoff!"</p>
 
-			<h2>Make an Italian pizza</h2>
+      <div class="floating-rocks back-one">
+        <img src="images/rock3.svg">
+      </div>
 
-			<p>(makes dough for 4 pizzas, each one about 12 inches in diameter)</p>
+      <p>"Houston, Tranquility Base here. The Eagle has landed."</p>
 
-			<h3>Ingredients</h3>
+      <div class="floating-rocks front-two">
+        <img src="images/rock2.svg">
+      </div>
 
-			<ul>
-				<li>600 mL of warm water</li>
-				<li>7 cups (1kg) flour</li>
-				<li>
-					2.5 – 3 tablespoons (25 grams) of fresh yeast or 2 teaspoons (7-8
-					grams) of dried yeast
-				</li>
-				<li>6 tablespoons of extra virgin olive oil</li>
-				<li>1.5 teaspoons salt</li>
-				<li>2 teaspoons sugar</li>
-			</ul>
+      <p>"Here we first set foot upon the Moon. July 1969 AD. We came in peace for all mankind."</p>
 
-			<img src="images/pizza.jpg" class="inline-photo show-on-scroll" />
+      <div class="floating-rocks back-two">
+        <img src="images/rock4.svg">
+      </div>
 
-			<h3>Method</h3>
+      <p>"This is the LM pilot. I'd like to take this opportunity to ask every person listening in, whoever and wherever they may be, to pause for a moment and contemplate the events of the past few hours and to give thanks in his or her own way."</p>
 
-			<p>
-				Sprinkle the yeast into a medium bowl with the warm water. We don’t mean
-				hot, and we don’t mean cold… we mean warm! That’s the kind the yeast
-				likes best. Stir until the yeast dissolves.
-			</p>
+      <div class="floating-rocks planet-earth">
+        <img src="images/earth.png" width="100">
+      </div>
 
-			<p>
-				Place almost all of the flour on the table in the shape of a volcano.
-				(Think Mt. Vesuvius… appropriate since Naples is the king of all pizza
-				cities!).
-			</p>
+      <p>"That's one small step for man, a giant leap for mankind."</p>
 
-			<p>
-				Pour the yeast-and-warm-water mix, along with the other ingredients,
-				into the “crater” of the volcano.
-			</p>
+    </article>
 
-			<p>
-				Knead everything together for 10 to 15 minutes until the dough is smooth
-				and elastic, keeping your surface floured.
-			</p>
-
-			<img src="images/pizza_spin.jpg" class="inline-photo show-on-scroll" />
-
-			<p>
-				Grease up a bowl with some olive oil and put the dough inside. Turn the
-				dough around so the top is slightly oiled.
-			</p>
-
-			<p>
-				Cover the bowl and put the dough aside to let it rest for at least four
-				or five hours.
-			</p>
-
-			<p>
-				(optional for those who want their pizza really authentic). Make a cross
-				on top of the dough with a knife. An old Italian tradition, this is seen
-				as a way of “blessing the bread.”
-			</p>
-
-			<p>Preheat the oven to about 400°F, or about 200°C.</p>
-
-			<p>
-				Dump the dough out of the bowl and back onto the floured surface. Punch
-				it down, getting rid of any bubbles. (Note: Now’s the time to enlist a
-				kid with more energy than they know what to do with!).
-			</p>
-
-			<p>Divide the dough in half and let it rest for a few minutes.</p>
-
-			<p>
-				Roll each section into a 12-inch disc. Now’s your chance to decide how
-				thick you want your pizza to be! Do you want it pizza alta
-				(Neapolitan-style) or pizza bassa (Roman-style)? Just remember, your
-				crust will puff up a little bit as it’s baked!
-			</p>
-
-			<img src="images/pizza_oven.jpg" class="inline-photo show-on-scroll" />
-
-			<p>Transfer the dough onto an oiled pizza pan or baking sheet.</p>
-
-			<p>
-				Add tomato sauce, if you want a pizza rossa (red pizza). Lots of pizzas
-				in Italy are actually pizza bianca, without tomato sauce, so don’t feel
-				like you have to! Brush the edges of the crust with a little bit of
-				olive oil.
-			</p>
-
-			<p>
-				Bake each pizza for about 10 minutes, then add mozzarella cheese (sliced
-				or grated) on top, as well as any other ingredients.
-			</p>
-
-			<p>
-				Let the pizzas bake until the crust is browned and the cheese is melted.
-				By lifting up the pizza to peek underneath, you can make sure the bottom
-				has browned, too.
-			</p>
-
-			<p>
-				Remove your pizzas from the oven and, for a real Italian touch, garnish
-				with a few basil leaves. And enjoy!
-			</p>
-
-			<img src="images/pizza3.jpg" class="inline-photo show-on-scroll" />
-
-			<section class="next-article show-on-scroll">
-				<h2>Ready for more?</h2>
-				<p>
-					Move over pizza, lets create some parallax animations on the moon!
-				</p>
-				<p><a href="#">Read now</a></p>
-			</section>
-
-			<p class="credit">
-				More info about pizza can be found
-				<a href="https://en.wikipedia.org/wiki/History_of_pizza">on Wikipedia</a
-				>. Recipe from
-				<a
-					href="https://www.walksofitaly.com/blog/food-and-wine/italian-pizza-dough-recipe"
-					>Walks Of Italy</a
-				>.
-			</p>
-		</article>
-
-		<script src="javascripts/show-on-scroll.js"></script>
-	</body>
+    <footer>
+      <h1 class="heading">MOON ROCKS</h1>
+    </footer>
+  </body>
 </html>
