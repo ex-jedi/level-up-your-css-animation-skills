@@ -309,3 +309,7 @@ header:after {
 .credit {
   font-style: italic;
 }
+
+.next-article h2 {
+  font-size: 32px;
+}
