@@ -37,13 +37,3 @@ function isElementInViewport(el) {
 				document.documentElement.clientHeight + offsetSecond)
 	);
 }
-
-// Get the img heading
-var img = document.querySelector("img");
-
-// Get it's position in the viewport
-var bounding = img.getBoundingClientRect();
-
-// Log the results
-console.log(bounding.height);
-console.log(bounding.height - 50);
