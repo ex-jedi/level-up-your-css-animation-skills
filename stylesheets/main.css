@@ -250,3 +250,63 @@ p {
   font-size: 3em;
   margin: 6em auto;
 }
+
+.modal {
+  background: -webkit-linear-gradient(top, #fff, #333);
+  background: linear-gradient(to bottom, #fff, #333);
+  border-radius: 2em;
+  height: 400px;
+    left: calc(50% - 300px);
+  position: fixed;
+    top: calc(50% - 200px);
+  width: 600px;
+  z-index: 99;
+}
+
+.modal h2 {
+  color: #333;
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.modal p {
+  color: #333;
+  font-size: 1.5em;
+  margin: 1em;
+} 
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+input {
+  border: 1px solid #333;
+  border-radius: .1em !important;
+  color: #333;
+  font-size: 1.5em;
+  padding: .25em;
+} 
+
+input[type=email] {
+  margin: 0 .5em;
+}
+
+input[type=submit] {
+  background: #333;
+}
+
+.modal .close {
+  color: #333;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
