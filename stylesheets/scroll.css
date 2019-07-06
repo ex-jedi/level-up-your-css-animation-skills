@@ -1,20 +1,19 @@
 header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
           align-items: center;
   background: #000 url(../images/moon.jpg) center no-repeat;
   background-size: 100% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-      -ms-flex-align: center;
-      -ms-flex-pack: center;
   height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
   position: relative;
   width: 100vw;
-
-  -webkit-box-align: center;
-  -webkit-box-pack: center;
 }
 
 header:after {
